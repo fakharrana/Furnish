@@ -1,0 +1,19 @@
+Total Data = 700000
+70% Training Data = 490000
+30% Test Data = 210000
+
+Positive Reviews = 350000
+Negative Reviews = 350000
+
+Amazon Reviews  = 5000
+Product Reviews = 695000
+
+08/12/2021
+Training Started at 12:35 pm
+Epochs = 3
+Training Completed at 10:08 pm
+
+Time Taken to Train = 10 hours and 33 minutes
+
+accuracy = 0.9055
+

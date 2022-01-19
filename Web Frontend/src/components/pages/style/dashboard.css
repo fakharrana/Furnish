@@ -1,0 +1,11 @@
+.dashboard {
+  margin-top: 230px;
+  margin-left: 530px;
+  justify-content: center;
+  justify-items: center;
+  background-color: #009688;
+  width: 570px;
+  padding: 10px 15px 10px 15px;
+  font-weight: bold;
+  border-radius: 35px;
+}

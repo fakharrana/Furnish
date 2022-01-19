@@ -1,0 +1,6 @@
+
+SECRET_KEY=pfju309f0r959859r89ufjoknvj@hbfcdnerpfp854rf0eg4kmwl,e3lp4o056
+
+EMAIL=
+
+PASSWORD=

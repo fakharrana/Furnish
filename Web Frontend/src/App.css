@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.sort_a {
+  margin-left: 3px;
+  color: white;
+}
+
+.sort_d {
+  margin-left: 3px;
+  color: white;
+}
+
+.sort_a:hover{
+  color: white;
+}
+.sort_d:hover{
+  color: white;
+}

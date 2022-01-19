@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.furnish.furnish.fragments.Home"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_cart"
+        android:name="com.furnish.furnish.fragments.Cart"
+        android:label="Cart"
+        tools:layout="@layout/fragment_cart" />
+    <fragment
+        android:id="@+id/nav_orderHistory"
+        android:name="com.furnish.furnish.fragments.OrderHistory"
+        android:label="Order History"
+        tools:layout="@layout/fragment_order_history" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.furnish.furnish.fragments.Settings"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+
+
+
+</navigation>

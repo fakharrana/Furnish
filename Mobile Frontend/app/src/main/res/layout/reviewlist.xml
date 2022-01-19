@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="2dp"
+    android:layout_marginBottom="2dp"
+    android:background="@android:color/white"
+    android:elevation="1dp"
+    android:paddingTop="13dp"
+    android:paddingBottom="13dp">
+
+    <TextView
+        android:id="@+id/review"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:inputType="textMultiLine"
+        android:text="TextView"
+        android:textColor="#221E1E"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/review_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:text="TextView"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/review"
+        app:layout_constraintStart_toStartOf="@+id/review" />
+
+    <TextView
+        android:id="@+id/review_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="8sp"
+        app:layout_constraintEnd_toEndOf="@+id/review"
+        app:layout_constraintTop_toBottomOf="@+id/review" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/delete_review"
+        android:layout_width="56dp"
+        android:layout_height="35dp"
+        android:text="Delete"
+        android:textAllCaps="false"
+        android:textSize="7dp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:backgroundTint="#B32424"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/review"
+        app:layout_constraintEnd_toEndOf="@+id/review"
+        app:layout_constraintHorizontal_bias="0.934"
+        app:layout_constraintStart_toEndOf="@+id/review_email"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

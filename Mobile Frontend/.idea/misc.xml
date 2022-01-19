@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Ghousia PC/Desktop/FYP/Furnish Mobile App/Furnish/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1935185185185185" />
+        <entry key="..\:/Users/Ghousia PC/Desktop/FYP/Furnish Mobile App/Furnish/app/src/main/res/drawable/custombutton.xml" value="0.1" />
+        <entry key="..\:/Users/Ghousia PC/Desktop/FYP/Furnish Mobile App/Furnish/app/src/main/res/drawable/emptycart.xml" value="0.20461538461538462" />
+        <entry key="..\:/Users/Ghousia PC/Desktop/FYP/Furnish Mobile App/Furnish/app/src/main/res/drawable/ic_baseline_close_24.xml" value="0.1935185185185185" />
+        <entry key="..\:/Users/Ghousia PC/Desktop/FYP/Furnish Mobile App/Furnish/app/src/main/res/drawable/ic_baseline_history_24.xml" value="0.20092592592592592" />
+        <entry key="..\:/Users/Ghousia PC/Desktop/FYP/Furnish Mobile App/Furnish/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.20092592592592592" />
+        <entry key="..\:/Users/Ghousia PC/Desktop/FYP/Furnish Mobile App/Furnish/app/src/main/res/drawable/ic_baseline_shopping_basket_24.xml" value="0.20461538461538462" />
+        <entry key="..\:/Users/Ghousia PC/Desktop/FYP/Furnish Mobile App/Furnish/app/src/main/res/drawable/ic_baseline_shopping_basket_25.xml" value="0.20461538461538462" />
+        <entry key="..\:/Users/Ghousia PC/Desktop/FYP/Furnish Mobile App/Furnish/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1935185185185185" />
+        <entry key="..\:/Users/Ghousia PC/Desktop/FYP/Furnish Mobile App/Furnish/app/src/main/res/drawable/ic_no_order.xml" value="0.20461538461538462" />
+        <entry key="..\:/Users/Ghousia PC/Desktop/FYP/Furnish Mobile App/Furnish/app/src/main/res/drawable/rounded_bg.xml" value="0.20461538461538462" />
+        <entry key="..\:/Users/Ghousia PC/Desktop/FYP/Furnish Mobile App/Furnish/app/src/main/res/drawable/rounded_remove.xml" value="0.1962962962962963" />
+        <entry key="..\:/Users/Ghousia PC/Desktop/FYP/Furnish Mobile App/Furnish/app/src/main/res/layout/activity_arview.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/Ghousia PC/Desktop/FYP/Furnish Mobile App/Furnish/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Ghousia PC/Desktop/FYP/Furnish Mobile App/Furnish/app/src/main/res/layout/activity_order_confirmation.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/Ghousia PC/Desktop/FYP/Furnish Mobile App/Furnish/app/src/main/res/layout/activity_order_details.xml" value="0.33" />
+        <entry key="..\:/Users/Ghousia PC/Desktop/FYP/Furnish Mobile App/Furnish/app/src/main/res/layout/activity_payment.xml" value="0.25" />
+        <entry key="..\:/Users/Ghousia PC/Desktop/FYP/Furnish Mobile App/Furnish/app/src/main/res/layout/activity_previous_orders.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/Ghousia PC/Desktop/FYP/Furnish Mobile App/Furnish/app/src/main/res/layout/activity_product_details.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/Ghousia PC/Desktop/FYP/Furnish Mobile App/Furnish/app/src/main/res/layout/add_review_dialog.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/Ghousia PC/Desktop/FYP/Furnish Mobile App/Furnish/app/src/main/res/layout/addedtocart_dialog.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/Ghousia PC/Desktop/FYP/Furnish Mobile App/Furnish/app/src/main/res/layout/cart_list_item.xml" value="0.33" />
+        <entry key="..\:/Users/Ghousia PC/Desktop/FYP/Furnish Mobile App/Furnish/app/src/main/res/layout/fragment_home.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/Ghousia PC/Desktop/FYP/Furnish Mobile App/Furnish/app/src/main/res/layout/fragment_order_history.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/Ghousia PC/Desktop/FYP/Furnish Mobile App/Furnish/app/src/main/res/layout/fragment_previous_orders.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/Ghousia PC/Desktop/FYP/Furnish Mobile App/Furnish/app/src/main/res/layout/logout_confirmation_dialog.xml" value="0.33" />
+        <entry key="..\:/Users/Ghousia PC/Desktop/FYP/Furnish Mobile App/Furnish/app/src/main/res/layout/multiar_details_dialog.xml" value="0.25" />
+        <entry key="..\:/Users/Ghousia PC/Desktop/FYP/Furnish Mobile App/Furnish/app/src/main/res/layout/multiple_arview_list_item.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/Ghousia PC/Desktop/FYP/Furnish Mobile App/Furnish/app/src/main/res/layout/multiplearview.xml" value="0.33" />
+        <entry key="..\:/Users/Ghousia PC/Desktop/FYP/Furnish Mobile App/Furnish/app/src/main/res/layout/network_security_config.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/Ghousia PC/Desktop/FYP/Furnish Mobile App/Furnish/app/src/main/res/layout/orderdetailslist.xml" value="0.33" />
+        <entry key="..\:/Users/Ghousia PC/Desktop/FYP/Furnish Mobile App/Furnish/app/src/main/res/layout/orderedlist.xml" value="0.33" />
+        <entry key="..\:/Users/Ghousia PC/Desktop/FYP/Furnish Mobile App/Furnish/app/src/main/res/layout/orderplaced_dialog.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/Ghousia PC/Desktop/FYP/Furnish Mobile App/Furnish/app/src/main/res/layout/recievingorderlist.xml" value="0.33" />
+        <entry key="..\:/Users/Ghousia PC/Desktop/FYP/Furnish Mobile App/Furnish/app/src/main/res/layout/removemodel.xml" value="0.33" />
+        <entry key="..\:/Users/Ghousia PC/Desktop/FYP/Furnish Mobile App/Furnish/app/src/main/res/layout/view_model_title.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/Ghousia PC/Desktop/FYP/Furnish Mobile App/Furnish/app/src/main/res/menu/activity_main_drawer.xml" value="0.19166666666666668" />
+        <entry key="..\:/Users/Ghousia PC/Desktop/FYP/Furnish Mobile App/Furnish/app/src/main/res/menu/main.xml" value="0.15" />
+        <entry key="..\:/Users/Ghousia PC/Desktop/FYP/Furnish Mobile App/Furnish/app/src/main/res/menu/orderhistory_menu.xml" value="0.25" />
+        <entry key="..\:/Users/Ghousia PC/Desktop/FYP/Furnish Mobile App/Furnish/app/src/main/res/menu/settingmenu.xml" value="0.25" />
+        <entry key="..\:/Users/Ghousia PC/Desktop/FYP/Furnish Mobile App/Furnish/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.21" />
+        <entry key="..\:/Users/Ghousia PC/Desktop/FYP/Furnish Mobile App/Furnish/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1935185185185185" />
+        <entry key="..\:/Users/Ghousia PC/Desktop/FYP/Furnish Mobile App/Furnish/app/src/main/res/xml/orderhistory_menu.xml" value="0.1" />
+        <entry key="..\:/Users/Ghousia PC/Desktop/FYP/Furnish Mobile App/Furnish/app/src/main/res/xml/orderhistorymenu.xml" value="0.19166666666666668" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

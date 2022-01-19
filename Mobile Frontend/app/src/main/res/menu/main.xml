@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+<!--    <item-->
+<!--        android:id="@+id/cart_Home"-->
+<!--        android:orderInCategory="100"-->
+<!--      android:icon="@drawable/ic_baseline_shopping_basket_25"-->
+<!--        android:title="Cart"-->
+<!--        app:showAsAction="always" />-->
+</menu>

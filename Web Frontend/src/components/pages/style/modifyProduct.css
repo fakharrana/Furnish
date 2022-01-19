@@ -1,0 +1,69 @@
+.modifyproduct {
+  margin-top: 10px;
+  margin-left: 250px;
+}
+
+.form-modifyproduct {
+  margin: 20px 50px 10px 10px;
+}
+
+.label {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.Input {
+  border-width: 2px;
+  border-color: red;
+}
+
+.label-files-modifyproduct input[type="file"] {
+  font-size: 14px;
+  color: transparent;
+}
+
+.label-files-modifyproduct label {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.label-thumbnail-modifyproduct {
+  z-index: 2;
+  background-color: white;
+  font-size: 13px;
+  height: 30px;
+  width: 100px;
+  position: absolute;
+  margin-left: 34%;
+  margin-top: -7%;
+}
+
+.label-images-modifyproduct {
+  z-index: 2;
+  font-size: 13px;
+  height: 30px;
+  background-color: white;
+  width: 100px;
+  position: absolute;
+  margin-left: 36%;
+  margin-top: -7%;
+}
+
+.label-model-modifyproduct {
+  z-index: 2;
+  background-color: white;
+  font-size: 13px;
+  height: 30px;
+  width: 100px;
+  position: absolute;
+  margin-left: 34%;
+  margin-top: -7%;
+}
+
+.bottom-row-modifyproduct {
+  margin-top: 25px;
+}
+
+.save-button-modifyproduct {
+  margin-top: 17px;
+}

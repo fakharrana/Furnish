@@ -1,0 +1,34 @@
+.addnewproduct {
+  padding-top: 10px;
+  margin-left: 250px;
+}
+
+.form-addnewproduct {
+  margin: 20px 50px 10px 10px;
+}
+
+.label {
+  font-weight: bold;
+  font-size: 14px;
+  border-color: red; 
+}
+
+.Input {
+  border-width: 2px;
+  border-color: red; 
+}
+
+.bottom-row-addnewproduct {
+  margin-top: 25px;
+}
+
+.save-button-addnewproduct {
+  margin-top: 17px;
+}
+
+.spinner-addnewproduct{
+  margin-top: -10%;
+  margin-left: 46%;
+}
+
+

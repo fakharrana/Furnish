@@ -1,0 +1,14 @@
+{
+  "name": "automated-tests",
+  "version": "1.0.0",
+  "description": "Automated Selenium Tests",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fakhar Ayub Rana",
+  "license": "MIT",
+  "dependencies": {
+    "selenium-webdriver": "^4.1.0"
+  }
+}

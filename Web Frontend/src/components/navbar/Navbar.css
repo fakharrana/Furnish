@@ -1,0 +1,125 @@
+.header {
+  background-color: #009688;
+  height: 60px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  border: 3px solid;
+  border-color: lightseagreen;
+}
+
+.title-link:hover {
+  text-decoration: none;
+}
+.title {
+  width: 200px;
+  min-height: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 8px 0px 8px 10px;
+  padding: 8px 0px 10px 10px;
+  text-decoration: none;
+  color: #f5f5f5;
+  border-radius: 9px;
+}
+
+.title:hover {
+  background-color: #7bdcb5;
+  text-decoration: none;
+  color: #f5f5f5;
+}
+
+.dropdown {
+  margin-left: 1050px;
+}
+
+.admin-dropdown {
+  width: 83px;
+  height: 40px;
+  font-size: 18px;
+  font-weight: bold;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 5px 5px 5px 5px;
+  color: #f5f5f5;
+  background-color: #009688;
+  border-color: #009688;
+  border-radius: 9px;
+}
+
+.admin-dropdown:hover {
+  background-color: #7bdcb5;
+  border-color: #7bdcb5;
+  color: #f5f5f5;
+}
+
+.changepassword-decoration {
+  background-color:transparent;
+  color:black;
+  text-decoration: none;
+}
+.changepassword-decoration:hover {
+  background-color: #009688;
+  color: #f5f5f5;
+  text-decoration: none;
+}
+
+.changepassword-dropdown:hover {
+  background-color: #009688;
+  color: #f5f5f5;
+}
+
+.logout-dropdown:hover {
+  background-color: #009688;
+  color: #f5f5f5;
+}
+.nav-menu {
+  background-color: #009688;
+  width: 210px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 60px;
+  left: 0;
+}
+
+.nav-text {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 8px 0px 8px 16px;
+  list-style: none;
+  height: 50px;
+}
+
+.nav-text a {
+  text-decoration: none;
+  color: #f5f5f5;
+  font-size: 16px;
+  width: 95%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  border-radius: 4px;
+}
+
+.nav-text a:hover {
+  background-color: #7bdcb5;
+  text-decoration: none;
+  color: #f5f5f5;
+}
+
+.nav-menu-items {
+  width: 100%;
+}
+
+span {
+  margin-left: 16px;
+}

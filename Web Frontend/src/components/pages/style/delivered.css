@@ -1,0 +1,40 @@
+.delivered {
+    margin-top: 20px;
+    margin-left: 240px;
+    margin-right: 20px;
+  }
+  
+  .top-row-delivered {
+    margin-bottom: 30px;
+  }
+  
+
+  .top-row-title-delivered {
+    width: 240px;
+  }
+  
+  .search-bar-delivered { 
+    padding-left: 4px;
+    width: 330px;
+    height: 40px;
+  }
+
+  .spinner{
+    margin-left: 46%;
+  }
+
+  .deleteAll-delivered {
+    border-radius: 9px;
+  }  
+  
+  .thead-delivered  {
+    background-color: #009688;
+    color: antiquewhite;
+  } 
+  
+  .order-not-found-delivered {
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 40%;
+  }
+  

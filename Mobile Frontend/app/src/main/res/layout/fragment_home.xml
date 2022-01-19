@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".fragments.Home">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="107dp"
+        android:layout_height="79dp"
+        android:layout_centerInParent="true"
+        android:scrollbarSize="14dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:divider="@null"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout.ScrollingViewBehavior"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+
+    <RelativeLayout
+
+        android:id="@+id/relativeLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="12dp"
+        android:background="@android:color/white"
+        android:elevation="5dp"
+        android:orientation="horizontal"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.192">
+
+        <EditText
+            android:id="@+id/searchview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:background="@android:color/transparent"
+            android:hint="Search for a Product"
+            android:inputType="textShortMessage"
+            android:imeOptions="actionDone"
+            android:letterSpacing="0.1"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/searchButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_baseline_search_24" />
+    </RelativeLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/scrollviewCategories"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:scrollIndicators="none"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout4">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:scrollIndicators="none">
+
+            <Button
+                android:id="@+id/allcategorybtn"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="All"
+                android:inputType="textShortMessage"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                app:cornerRadius="16dp"
+                android:letterSpacing="0.2"
+                >
+
+            </Button>
+
+            <Button
+                android:id="@+id/bedcategorybtn"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:inputType="textShortMessage"
+                android:text="Beds"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                app:cornerRadius="16dp"
+                android:letterSpacing="0.2"
+                >
+
+            </Button>
+
+            <Button
+                android:id="@+id/chaircategorybtn"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Chairs"
+                android:textSize="12dp"
+                android:inputType="textShortMessage"
+                android:textStyle="bold"
+                app:cornerRadius="16dp"
+                android:letterSpacing="0.2"
+                />
+
+            <Button
+                android:id="@+id/sofacategorybtn"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Sofas"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:inputType="textShortMessage"
+                app:cornerRadius="16dp"
+                android:letterSpacing="0.2"
+
+                />
+
+            <Button
+                android:id="@+id/tablecategorybtn"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Tables"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:inputType="textShortMessage"
+                app:cornerRadius="16dp"
+                android:letterSpacing="0.2"
+
+                />
+
+            <Button
+                android:id="@+id/deskcategorybtn"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Desks"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                app:cornerRadius="16dp"
+                android:inputType="textShortMessage"
+                android:letterSpacing="0.2"
+
+                />
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/Errormsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:text="server's down :(("
+        android:textAlignment="center"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

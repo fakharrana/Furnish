@@ -1,0 +1,38 @@
+.negative-reviews {
+  margin-top: 20px;
+  margin-left: 240px;
+  margin-right: 20px;
+}
+
+.top-row-negative-reviews {
+  margin-bottom: 30px;
+}
+
+.top-row-title-negative-reviews {
+  width: 240px;
+}
+
+.search-bar-negative-reviews {
+  padding-left: 4px;
+  width: 330px;
+  height: 40px;
+}
+
+.spinner{
+  margin-left: 46%;
+}
+
+.deleteAll-negative-reviews {
+  border-radius: 9px;
+}
+
+.thead-negative-reviews {
+  background-color: #009688;
+  color: antiquewhite;
+}
+
+.review-not-found-negative-reviews {
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 40%;
+}

@@ -1,0 +1,23 @@
+.viewmodel {
+    margin-top: 20px;
+    margin-left: 240px;
+    margin-right: 20px;
+  }
+
+  .top-row-viewmodel{
+    margin-bottom: 10px;
+  }
+  
+  .spinner{
+    margin-left: 46%;
+  }
+
+  model-viewer {
+    border: solid 4px;
+    border-radius: 30px;
+    margin-left: 15%;
+    border-color:#009688;
+    width: 800px;
+    height: 500px;
+  }
+

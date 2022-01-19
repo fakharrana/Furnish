@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.furnish.furnish">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Furnish"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".activities.PreviousOrders"
+            android:label="Previous Orders"
+            android:exported="false" />
+        <activity
+            android:name=".activities.OrderDetails"
+            android:exported="false"
+            android:label="Order Details" />
+        <activity
+            android:name=".activities.Payment"
+            android:exported="false"
+            android:label="Payment" />
+        <activity android:name=".activities.MultipleArView" />
+        <activity android:name=".activities.Registration">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.ARView" />
+        <activity
+            android:name=".activities.OrderConfirmation"
+            android:label="Order Confirmation" />
+        <activity
+            android:name=".activities.ProductDetails"
+            android:label="Product Details" />
+
+        <meta-data
+            android:name="com.google.ar.core"
+            android:value="optional" />
+
+        <activity
+            android:name=".activities.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Furnish.NoActionBar" />
+    </application>
+
+</manifest>

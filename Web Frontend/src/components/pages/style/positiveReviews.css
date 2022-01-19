@@ -1,0 +1,38 @@
+.positive-reviews {
+  margin-top: 20px;
+  margin-left: 240px;
+  margin-right: 20px;
+}
+
+.top-row-positive-reviews {
+  margin-bottom: 30px;
+}
+
+.top-row-title-positive-reviews {
+  width: 240px;
+}
+
+.search-bar-positive-reviews {
+  padding-left: 4px;
+  width: 330px;
+  height: 40px;
+}
+
+.deleteAll-positive-reviews {
+  border-radius: 9px;
+}
+
+.thead-positive-reviews {
+  background-color: #009688;
+  color: antiquewhite;
+}
+
+.spinner {
+  margin-left: 46%;
+}
+
+.review-not-found-positive-reviews {
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 40%;
+}
